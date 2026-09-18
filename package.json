@@ -1,0 +1,15 @@
+{
+  "name": "bestclips-poll-bot",
+  "version": "1.0.0",
+  "description": "Posts a poll-style movie collage image (Follow/Share/Like CTAs) to the Best Clips Facebook Page",
+  "main": "post-poll.js",
+  "scripts": {
+    "start": "node post-poll.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
